@@ -10,7 +10,6 @@ This repository contains the implementation of gender classification using **spe
 | Decision Tree     | 93.28%       | 93.13%                           | 91.35% / 94.33%         | 89.69% / 95.28%      | 92.66%               | Better at classifying males, potential recall improvement for females |
 | Linear SVM        | 99.35%       | 99.22%                           | Very High               | 99.10% / 99.45%      | 99.27%               | Strong performance, but slightly outperformed by RBF SVM |
 | RBF SVM          | 99.94%       | 99.94%                           | Extremely High          | 99.89% / 99.98%      | 99.94%               | Best model overall, captures non-linear patterns |
-| LSTM              | 98.61%       | 98.18%                           | High                    | 98.30% / 98.75%      | 98.52%               | Performs well, benefits from sequential dependencies, slightly lower than SVMs |
 
 ## Decision Matrices
 | Model               | TN   | FP  | FN  | TP   |
@@ -19,7 +18,6 @@ This repository contains the implementation of gender classification using **spe
 | Decision Tree      | 1035 | 119 | 213 | 1863 |
 | Linear SVM         | 1130 | 24  | 15  | 2061 |
 | RBF SVM           | 1149 | 5   | 2   | 2074 |
-| LSTM               | 1125 | 28  | 19  | 2057 |
 
 ## Feature Importance
 - MFCCs (Mel Frequency Cepstral Coefficients) are the most relevant features for gender classification.
