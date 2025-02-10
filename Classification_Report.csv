@@ -1,0 +1,6 @@
+Class,Precision,Recall,F1-score,Support
+0 (Female),0.99,0.99,0.99,1154
+1 (Male),1.0,0.99,0.99,2076
+Accuracy,-,0.99,-,3230
+Macro Avg,0.99,0.99,0.99,3230
+Weighted Avg,0.99,0.99,0.99,3230

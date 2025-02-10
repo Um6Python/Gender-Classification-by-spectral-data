@@ -1,0 +1,4 @@
+Metric,Value
+Mean CV Accuracy,0.9927
+Test Set Accuracy,0.9929
+ROC AUC Score,0.9925
