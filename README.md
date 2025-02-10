@@ -38,5 +38,5 @@ python lstm_crossval.py
 ⚠️ **Potential Bias:** Decision Tree favors male classification slightly more than female  
 📌 **Next Steps:** Consider ensemble learning, fairness adjustments, and further hyperparameter tuning.
 
-## Contributors
-Developed by **TEAM TAHA** as part of an **Applied Machine Learning for Cognitive Science** course.
+## Context
+Developed as part of an **Intro to Machine Learning** course.
